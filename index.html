@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surat buat kamu, dibaca yahh</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1>Pertama kali dibuatin website sama cowo yaa?? hehe</h1>
+    <h2>Dengerin musiknya yaaa</h2>
+<br>
+<br>
+
+    <div class="music-player">
+        <button onclick="toggleMusic()" id="musicBtn"> Dengerin Musiknyaa</button>
+        <audio id="bgMusic" loop>
+          <source src="music/SpotiDownloader.com - Komang - Raim Laode.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+
+<script>
+    const music = document.getElementById('bgMusic');
+    const musicBtn = document.getElementById('musicBtn');
+  
+    music.volume = 0.3;
+  
+    function toggleMusic() {
+      if (music.paused) {
+        music.play();
+        musicBtn.innerText = 'Pause Music';
+      } else {
+        music.pause();
+        musicBtn.innerText = 'Play Music';
+      }
+    }
+  </script>
+  <br>
+  <br>
+  <br>
+
+    <h2>Aku ada surat nih buat kamuu, dibaca yaa. Gabakal hilang nih, bisa kamu buka dimanapun dan kapanpunn</h2>
+
+    <img src="img/BRW_0057.jpg" height="600">
+<br>
+<br>
+<br>
+    
+    <h2>Jadi aku abis buatin playlist buat kamu, coba kamu scann</h2>
+    <img src="img/WhatsApp Image 2025-04-23 at 23.13.59.jpeg" height="130" width="500">
+<br>
+<br>
+<br>
+
+    <h2>hehe bingung yaa napa random lagunya, coba kamu liat huruf depan judulnya hihi</h2>
+<br>
+<br>
+<br>
+
+    <img src="img/WhatsApp Image 2025-04-23 at 23.13.59.jpeg"  height="130" width="500"> 
+    <h2>nihh yg playlist benerannya, dengerin yaaa!!</h2>
+<br>
+<br>
+<br>
+
+    <h1>Jangan lupa didengerin sama dimakan yaa bingkisannya, byee</h1>
+
+
+    <h3><i>“Kita beda keyakinan, tapi aku yakin satu hal. Kamu emang diturunin Tuhan buat bikin aku senyum tiap hari.”</i></h3>
+    <h3><i>“Kamu sujud ke timur, aku berlutut di gereja… tapi kita berdua jatuh cinta di tempat yang sama yaitu hati masing-masing.”</i></h3>
+    <h3><i>“Meskipun kamu nyepi dan aku misa, hatiku tetep ribut mikirin kamu.”</i></h3>
+</html>

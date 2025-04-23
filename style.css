@@ -1,0 +1,60 @@
+/* style.css */
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to bottom, #a000c4, #792281, #6d366b);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    background-color: white;
+    color: black;
+    font-size: 3em;
+    margin: 0;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.music-player button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    background-color: #8e44ad;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+}
+
+.music-player button:hover {
+    background-color: #732d91;
+}
+
+img {
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    margin-top: 20px;
+}
+
+.music-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.subjudul {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
